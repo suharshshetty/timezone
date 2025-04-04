@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Zone - Men's Collection</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ddd;
+            text-align: center;
+            padding: 50px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            color: #d4af37;
+            margin-bottom: 30px;
+        }
+
+        /* Flexbox layout for side-by-side products */
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .container {
+            width: 300px;
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+            border-left: 5px solid #a57c54;
+            text-align: center;
+        }
+
+        .product-image {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .product-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+            color: #d4af37;
+            margin-bottom: 10px;
+        }
+
+        .product-specs {
+            text-align: left;
+            margin: 15px auto;
+            max-width: 250px;
+            font-size: 1rem;
+            color: #bbb;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .product-specs li {
+            margin: 6px 0;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #e0c097;
+            margin: 10px 0;
+            font-family: 'Playfair Display', serif;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            background: #111;
+            color: #bbb;
+            box-shadow: 0 -2px 5px rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Time Zone - Men's Collection</h1>
+
+    <div class="product-container">
+        <div class="container">
+            <img src="blue.jpeg" alt="Blue Spark" class="product-image">
+            <h1 class="product-title">Blue Spark</h1>
+            <ul class="product-specs">
+                <li>Water Resistant: Yes</li>
+                <li>Display Type: Analog</li>
+                <li>Weight: 100 grams</li>
+                <li>Warranty: 1 Year</li>
+            </ul>
+            <p class="price">Price: $1,299</p>
+        </div>
+
+        <div class="container">
+            <img src="metal.jpeg" alt="Metal Master" class="product-image">
+            <h1 class="product-title">Metal Master</h1>
+            <ul class="product-specs">
+                <li>Water Resistant: Yes</li>
+                <li>Display Type: Analog</li>
+                <li>Weight: 110 grams</li>
+                <li>Warranty: 1 Year</li>
+            </ul>
+            <p class="price">Price: $1,499</p>
+        </div>
+
+        <div class="container">
+            <img src="time.jpeg" alt="Royal Time" class="product-image">
+            <h1 class="product-title">Royal Time</h1>
+            <ul class="product-specs">
+                <li>Water Resistant: Yes</li>
+                <li>Display Type: Analog</li>
+                <li>Weight: 90 grams</li>
+                <li>Warranty: 2 Years</li>
+            </ul>
+            <p class="price">Price: $2,299</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact us<br>timezone23@gmail.com</p>
+    </footer>
+
+</body>
+</html>
